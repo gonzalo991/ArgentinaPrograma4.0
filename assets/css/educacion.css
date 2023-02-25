@@ -1,0 +1,26 @@
+.educacion_titulo {
+    margin: 2rem;
+
+    text-decoration: underline;
+    text-align: center;
+
+    color: blueviolet;
+}
+
+.educacion_lista {
+    list-style: none;
+}
+
+.educacion_subtitle {
+    margin-left: 1rem;
+
+    font-size: 1.7rem;
+
+    color: palevioletred;
+}
+
+.educacion_text {
+    margin: 1.5rem;
+
+    font-weight: 600;
+}

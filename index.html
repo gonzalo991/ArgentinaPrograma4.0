@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Web</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/educacion.css">
+    <link rel="stylesheet" href="./assets/css/experiencia.css">
+    <link rel="stylesheet" href="./assets/css/sobre.css">
+</head>
+
+<body id="body">
+    <!--Header-->
+    <header class="header" id="header">
+
+        <div class="container text-center">
+            <div class="row" id="descripcion">
+            </div>
+        </div>
+
+    </header>
+    <!--Fin header-->
+
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="./templates/home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./templates/sobremi.html">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./templates/experiencia.html">Experiencia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./templates/educacion.html">Educacion</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="d-flex justify-content-end me-5">
+                <button class="light_button" id="light"><i class="fas fa-sun"></i></button>
+                <button class="dark_button" id="dark"><i class="fas fa-moon"></i></button>
+            </div>
+        </div>
+    </nav>
+
+    <main id="main">
+        <section id="home">
+            <div class="home_descripcion">
+                <h1 class="home_title">Profesional de la fotografía, con titulación universitaria y experiencia laboral
+                    amplia como
+                    fotógrafo en
+                    diferentes áreas como el e-commerce y la realización de eventos. Busco trabajar en XTS Corp para
+                    poder
+                    seguir desarrollándome como fotógrafo en el campo de la fotografía de productos, en el que ya he
+                    tomado
+                    contacto, habiendo trabajado con diferentes marcas de ropa durante los últimos 3 años.</h1>
+            </div>
+
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./img/fotografianro1.jpg" class="d-block w-100" id="carouselImg"
+                            alt="fotografia de una casa en la neblina">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/fotografianro2.png" class="d-block w-100" id="carouselImg"
+                            alt="fotografia de un parque">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/fotografianro3.jpg" class="d-block w-100" id="carouselImg"
+                            alt="fotografia de un fotografo">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+
+            <div class="container text-center">
+                <div class="conocimientos_container row">
+                    <div class="col-6">
+                        <div class="conocimientos">
+                            <h2 class="conocimientos_title">Conocimientos</h2>
+                            <ul class="lista_conocimientos">
+                                <li class="conocimientos_item">Photoshop</li>
+                                <li class="conocimientos_item">Illustrator</li>
+                                <li class="conocimientos_item">Lightroom</li>
+                                <li class="conocimientos_item">After Effects</li>
+                                <li class="conocimientos_item">Premiere Pro</li>
+                                <li class="conocimientos_item">Prestashop</li>
+                                <li class="conocimientos_item">Wordpress</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-6">
+                        <div class="herramientas">
+                            <h3 class="herramientas_title">Mis Herramientas</h3>
+                            <ul class="lista_herramientas">
+                                <li class="herramientas_item">Camara Pentax K- Mark II</li>
+                                <li class="herramientas_item">Objetivos de 50mm y 70mm</li>
+                                <li class="herramientas_item">Flash Godox V860II C Speddlite</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container ms-3">
+            <div class="footer_items row">
+                <!--Redes sociales-->
+                <div class="col-6">
+                    <div class="redes">
+                        <div class="container">
+                            <div class="row d-flex justify-content-center align-items-center">
+                                <div class="col-2">
+                                    <a href="https://www.linkedin.com/in/gonzalo-araya-416a6520b/"><i class="fab fa-linkedin"></i></a>
+                                </div>
+                                <div class="col-2 ms-2">
+                                    <a href="https://github.com/gonzalo991"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--portfolio-->
+                <div class="col-6 d-flex justify-content-center align-items-center">
+                    <a href="https://argo-webdev.onrender.com/" class="chrome"> <i class="fab fa-chrome"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Scripts-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script src="./assets/js/events.js"></script>
+    <script src="./assets/js/header.js"></script>
+    <script src="./assets/js/spa.js"></script>
+    <script src="https://kit.fontawesome.com/1e1471eb88.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

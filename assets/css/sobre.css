@@ -1,0 +1,29 @@
+.sobre_titulo {
+    margin: 1rem;
+    padding-left: 2rem;
+
+    text-align: center;
+    text-decoration: underline;
+
+    color: blueviolet;
+}
+
+.sobre_lista {
+    list-style: none;
+}
+
+.sobre_item {
+    margin: 1rem;
+
+    font-size: 1.2rem;
+    font-weight: 600;
+
+    text-align: center;
+    
+    color: palevioletred;
+}
+
+.sobre_text {
+    margin-top: 2rem;
+    margin-bottom: 2.5rem;
+}
