@@ -1,37 +1,141 @@
-<section id="sobre">
-    <h1 class="sobre_titulo">Sobre mi</h1>
-    <div class="sobre_description">
-        <div class="container">
-            <div class="d-flex flex-column align-items-center">
-                <ul class="sobre_lista justify-content-center">
-                    <li class="sobre_item">Flexibilidad</li>
-                    <p class="sobre_text justify-content-center m-3">Adaptación de shootings a las demandas digitales de
-                        cada
-                        marca, cada
-                        evento y persona. Elaborando fotos
-                        de celebraciones, productos web, lifestyle, para diferentes formatos de redes sociales, etc,
-                        para
-                        más de
-                        30 marcas diferentes y cubriendo más de 50 eventos.</p>
+<!DOCTYPE html>
+<html lang="en">
 
-                    <li class="sobre_item">Dinamismo</li>
-                    <p class="sobre_text justify-content-center m-3">Conocimientos profundos y avanzados en la edición
-                        de
-                        fotografías
-                        mediante herramientas de diseño, edición
-                        y maquetación de Adobe como Photoshop, Illustrator y Lightroom, habiendo utilizado estas
-                        herramientas
-                        para más de 200 diferentes proyectos de Street Marketing, Campañas PPC y SEO.</p>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Web</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="../assets/css/educacion.css">
+    <link rel="stylesheet" href="../assets/css/experiencia.css">
+    <link rel="stylesheet" href="../assets/css/sobre.css">
+</head>
 
-                    <li class="sobre_item">Trabajo en Equipo</li>
-                    <p class="sobre_text justify-content-center m-3">Desarrollo de mi trayectoria laboral, siempre
-                        acompañado de
-                        profesionales que me orientaron e hicieron
-                        desarrollar mis técnicas fotográficas, adaptándolas al aspecto comercial y facilitando el
-                        trabajo
-                        entre
-                        los distintos trabajadores en iluminación, edición y modelos.</p>
-                </ul>
+<body id="body">
+    <!--Header-->
+    <header class="header" id="header">
+
+        <div class="container text-center">
+            <div class="row" id="descripcion">
             </div>
         </div>
-</section>
+
+    </header>
+    <!--Fin header-->
+
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./sobre.html">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./experiencia.html">Experiencia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./educacion.html">Educacion</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="d-flex justify-content-end me-5">
+                <button class="light_button" id="light"><i class="fas fa-sun"></i></button>
+                <button class="dark_button" id="dark"><i class="fas fa-moon"></i></button>
+            </div>
+        </div>
+    </nav>
+
+    <main id="main">
+
+        <section id="sobre">
+            <h1 class="sobre_titulo">Sobre mi</h1>
+            <div class="sobre_description">
+                <div class="container">
+                    <div class="d-flex flex-column align-items-center">
+                        <ul class="sobre_lista justify-content-center">
+                            <li class="sobre_item">Flexibilidad</li>
+                            <p class="sobre_text justify-content-center m-3">Adaptación de shootings a las demandas
+                                digitales de
+                                cada
+                                marca, cada
+                                evento y persona. Elaborando fotos
+                                de celebraciones, productos web, lifestyle, para diferentes formatos de redes sociales,
+                                etc,
+                                para
+                                más de
+                                30 marcas diferentes y cubriendo más de 50 eventos.</p>
+
+                            <li class="sobre_item">Dinamismo</li>
+                            <p class="sobre_text justify-content-center m-3">Conocimientos profundos y avanzados en la
+                                edición
+                                de
+                                fotografías
+                                mediante herramientas de diseño, edición
+                                y maquetación de Adobe como Photoshop, Illustrator y Lightroom, habiendo utilizado estas
+                                herramientas
+                                para más de 200 diferentes proyectos de Street Marketing, Campañas PPC y SEO.</p>
+
+                            <li class="sobre_item">Trabajo en Equipo</li>
+                            <p class="sobre_text justify-content-center m-3">Desarrollo de mi trayectoria laboral,
+                                siempre
+                                acompañado de
+                                profesionales que me orientaron e hicieron
+                                desarrollar mis técnicas fotográficas, adaptándolas al aspecto comercial y facilitando
+                                el
+                                trabajo
+                                entre
+                                los distintos trabajadores en iluminación, edición y modelos.</p>
+                        </ul>
+                    </div>
+                </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container ms-3">
+            <div class="footer_items row">
+                <!--Redes sociales-->
+                <div class="col-6">
+                    <div class="redes">
+                        <div class="container">
+                            <div class="row d-flex justify-content-center align-items-center">
+                                <div class="col-2">
+                                    <a href="https://www.linkedin.com/in/gonzalo-araya-416a6520b/"><i
+                                            class="fab fa-linkedin"></i></a>
+                                </div>
+                                <div class="col-2 ms-2">
+                                    <a href="https://github.com/gonzalo991"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--portfolio-->
+                <div class="col-6 d-flex justify-content-center align-items-center">
+                    <a href="https://argo-webdev.onrender.com/" class="chrome"> <i class="fab fa-chrome"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Scripts-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script src="../assets/js/events.js"></script>
+    <script src="../assets/js/header.js"></script>
+    <script src="https://kit.fontawesome.com/1e1471eb88.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
